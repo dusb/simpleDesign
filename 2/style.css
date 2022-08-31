@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header__body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.header__logo__icon{
+    margin-left: 30px;
+    
+}
+.header__logo__text{
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.header__navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   
+}
+.header__navbar ul li{
+    margin-left: 48px;
+}
+.header__navbar ul li a{
+    color: #333;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.header__navbar ul li a:hover{
+    color: #BD7048;
+}
+.contact-block{
+    display: flex;
+    margin-right: 30px;
+}
+.contact-block__number--time{
+    color: #3B3B3B80;
+    font-size: 15px;
+}
+/* home */
+
+.home-body{
+    min-height: 100vh;
+    background:url(img/home.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    padding-bottom: 64px;
+    position: relative;
+}
+.home-body__text{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.home-body__button button{
+    color: white;
+    background-color: #BD7048;
+    margin-top: 80px;
+    border-radius: 50px;
+    border: 1px solid #BD7048;
+    padding: 15px;
+}
+
+/* step-box */
+
+.home-service{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    padding: 37px;
+    border-radius: 40px;
+}
+
+.step-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+.step-box img{
+    margin-right: 10px;
+}
+.step-box__title{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #262626;
+}
+.step-box p{
+    text-align: left;
+}
+.step-box__subtitle{
+    color: rgba(38, 38, 38, 0.7);
+    font-size: 15px;
+}
+
+/* about */
+
+.about__title{
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.img-one{
+    position: relative;
+    margin-top: 160px;
+    z-index: 2;
+    float: right;
+    margin-right: 440px;
+}
+.img-two{
+    position: absolute;
+    right: 0;
+}
+.about-box{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.about-box__icon{
+    margin-right: 20px;
+}
+.about-box__text{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.about-box__subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(38, 38, 38, 0.7);
+}
